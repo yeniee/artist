@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+
+
+.tab_ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.tab_li{
+    font-size: var(--fontSize18);
+    margin-right: var(--margin20);
+}
+
+.tab_li .on{
+    color: var(--cs05);   
+    font-weight: var(--fontWeight700);
+}
+
+/*팝업 section*/
+/*//////////////*/
+.job{
+    height: 1200px;
+}
+
+.job_btn_section{
+    width: 100%;
+    text-align: right;
+}
+.job_btn{
+    background:var(--cs02);   
+    font-size: var(--fontSize14);
+    display: inline-block;
+    padding: var(--padding10);
+    margin: var(--margin10) 0;
+    border-radius: 5px;
+    color: var(--gs01);
+}
+.job_btn a{
+    color: var(--gs01);
+}
+/*//////////////*/
+
+
+.job_list{
+    background: var(--gs03);
+    border-radius: 10px;
+    margin: var(--margin20) 0;
+    padding: var(--padding20) var(--padding10);
+}
+
+.job_list .star{
+    color: var(--gs05);
+    cursor: pointer
+}
+
+.job_list .star.on{
+    color: var(--cs04);
+}
+
+.store_name{
+    color: var(--gs07);
+    font-size: var(--fontSize13);
+    margin-right: var(--margin5);
+}
+
+.job_list i{
+    border-radius: 5px;
+    font-size: var(--fontSize15);
+    color: var(--gs05);
+    cursor: pointer;
+}
+
+.store{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: var(--margin5) 0;
+}
+
+.store h4{
+    font-size: var(--fontSize18);
+    font-weight: var(--fontWeight600);
+    max-width: 280px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.date_time{
+    font-size: var(--fontSize14);
+    color: var(--gs07);
+}
+
+.store_infor{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-size: var(--fontSize13);
+    color: var(--gs08);
+}
+.store_infor div span{
+    margin-right: var(--margin5);
+}
+
+.paging_ul{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.paging_li{
+    font-size: var(--fontSize14);
+}
+
+.paging_num{
+    padding: var(--padding5);
+}
+
+.paging_num.on{
+    background: var(--cs05);
+    color: var(--gs01);
+}
+
+/*section 영역*/
+
+
+.section{
+    display: none;
+}
+.section.on{
+    display: block;
+}
+

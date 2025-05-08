@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나는 아티스트</title>
+    <script src="https://kit.fontawesome.com/3367894b6f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/setting/reset.css">
+    <link rel="stylesheet" href="../css/setting/moduls.css">
+    <link rel="stylesheet" href="../css/setting/commonness.css">   
+    <link rel="stylesheet" href="../css/job/company.css">
+</head>
+<body>
+    <div id="wrap">
+        <div class="container">
+            <header class="header"> 
+                <div class="logo">
+                   <a href="../index.html">
+                       <img src="../img/logo.png" alt="logo">
+                   </a>
+                </div>
+           </header>
+           <main>
+                <section class="company_section">
+                    <div class="company_main_img">
+                        <!--이미지영역-->
+                    </div>
+                    <div class="company_infor_section">
+                        <h3 class="company_name">아티스트음악학원</h3>
+                        <p class="company_infor">학원/교육/음악</p>
+                        <div class="favorites">
+                            <button type="button" class="favorites_button">관심기업 <i class="fa-solid fa-heart interest"></i></button>
+                        </div>                    
+                    </div>
+    
+                    <div class="company_wrap">
+                        <ul class="company_ul">
+                            <li class="company_li"><a href="#introduction" class="on">소개</a></li>
+                            <li class="company_li"><a href="#employment_list_wrap">채용</a></li>
+                            <li class="company_li"><a href="#review">리뷰</a></li>
+                        </ul>                        
+                    
+                        <div class="company_box">
+                            <div class="company_view_section">
+                                <div class="view_section">
+                                    <span class="company_txt company_view">조회수</span>
+                                    <span class="counting">1,234</span>
+                                </div>
+                                <div class="view_section">
+                                    <span class="company_txt company_inter">관심</span>
+                                    <span class="counting">1,234</span>
+                                </div>
+                                <div class="view_section">
+                                    <span class="company_txt company_search">검색수</span>
+                                    <span class="counting">1,234</span>
+                                </div>                                
+                            </div>
+
+
+                            <div class="tab_box active" id="introduction">
+                                <div class="introduction_box">
+                                    <h3>학원소개</h3>
+                                    <p>음악을 배우는 모두 아티스트 입니다. 저희 아티스트 음악학원에서
+                                    음악을 배우고 소통하며 지내는 따뜻한 공간이기를 바랍니다!</p>
+                                </div>
+                                <div class="introduction_box">
+                                    <h3>근무지역<a href="javascript:void(0)" class="map_link">지도보기</a></h3>
+                                    <p>서울시 강남구 강남로123 101호 아티스트 음악학원(강남동 아티스트빌딩)</p>
+                                </div>
+                                <div class="introduction_box">
+                                    <h3>복리후생 </h3>
+                                    <ul class="benefit_ul">
+                                        <li class="benefit_list">- 퇴직금 지급</li>
+                                        <li class="benefit_list">- 자유복장</li>
+                                        <li class="benefit_list">- 사무용품 지급</li>
+                                        <li class="benefit_list">- 명절선물 지급</li>
+                                        <li class="benefit_list">- 장기근무시 급여인상</li>
+                                    </ul>
+                                </div>
+                                <div class="introduction_box">    
+                                    <ul class="company_img_ul">
+                                        <li class="licompany_img_list">
+                                            <img src="../img/company/company_01.jpg" alt="company_img">
+                                        </li>
+                                        <li class="licompany_img_list">
+                                            <img src="../img/company/company_02.jpg" alt="company_img">
+                                        </li>
+                                        <li class="licompany_img_list">
+                                            <img src="../img/company/company_03.jpg" alt="company_img">
+                                        </li>
+                                    </ul>
+                                </div>                        
+                            </div><!--introduction-->
+
+                            <div class="tab_box" id="employment_list_wrap">
+                                <h3>진행중인 공고 <span class="employment_list_count">1</span></h3>
+
+                                <div class="employment_button_list">
+                                    <button type="button" class="employment_list_btn all_btn ing_btn click">전체</button>
+                                    <button type="button" class="employment_list_btn no_btn ing_btn">경력무관</button>
+                                </div>
+
+                                <div class="employment_list">
+                                    <ul class="employment_ul">
+                                        <li class="employment_li">                        
+                                            <div class="store_infor">
+                                                <h5 class="store_name">아티스트음악학원</h5>
+                                                <i class="fa-solid fa-star star"></i>                                                    
+                                            </div>                        
+                                            <h4 class="board_title">
+                                                <a href="javascript:void(0)">아티스트음악학원에서 선생님을 모십니다~</a>                                                
+                                            </h4> 
+                                            <i class="fa-solid fa-location-dot maker"></i><span class="region">서울</span>                                                                                      
+                                        </li>
+                                    </ul>                                    
+                                </div>
+
+                                <div class="close_employment_list">
+                                    <h3>진행중인 공고 <span class="employment_list_count">0</span></h3>
+                                    <div class="employment_button_list">
+                                        <button type="button" class="employment_list_btn all_btn end_btn click ">전체</button>
+                                        <button type="button" class="employment_list_btn no_btn end_btn">음악</button>
+                                    </div>
+                                    
+                                    <ul class="close_employment_ul">
+                                        <li class="close_employment_li">
+                                            <h4>마감된 공고가 없습니다</h4>
+                                            <span>최근 3개월간 마감된 채용 이력이 없습니다.</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div><!--employment_list_wrap-->
+
+                            <div class="tab_box" id="review">
+                                <div class="reviewer">
+                                    <div class="reviewer_infor_box">
+                                        <div class="reviewer_img">
+                                            <img src="../img/company/reviewer/imgage.png" alt="reviewer_img">
+                                        </div>
+                                        <div class="reviewer_infor">                             
+                                            
+                                            <div class="working">
+                                                <span class="rectal">전직장</span>
+                                                <span class="work">레슨 및 지도</span>                                                
+                                            </div>     
+                                            <div class="review_score">
+                                                <img src="../img/company/reviewer/review03.png" alt="">
+                                            </div>  
+                                            <span class="board_date">2024-12-28</span>                                    
+                                        </div>
+                                    </div><!--reviewer_infor_box-->
+
+                                    <div class="review_txt">
+                                        <div class="good_txt_box">
+                                            <h5 class="good">장점</h5>
+                                            <p class="good_txt">타임별로 정해져 있는 아이들이 있어 레슨하는데 몰리지는 않습니다!</p>                                             
+                                        </div> 
+                                        <div class="bad_txt_box">
+                                            <h5 class="bad">단점</h5>
+                                            <p class="bad_txt">아이들이 쉬거나 결석을 하면 조금 예민해지세요 이사를 가던 공부때문에 쉬던 어떠한 이유라도 쉬거나 그만두면 한동안 예민해지셔서 눈치보여요</p>
+                                        </div>
+                                    </div>                                    
+                                </div><!--reviewer-->
+
+
+                                <div class="reviewer">
+                                    <div class="reviewer_infor_box">
+                                        <div class="reviewer_img">
+                                            <img src="../img/company/reviewer/imgage.png" alt="reviewer_img">
+                                        </div>
+                                        <div class="reviewer_infor">                             
+                                            
+                                            <div class="working">
+                                                <span class="rectal">전직장</span>
+                                                <span class="work">레슨 및 지도</span>                                                
+                                            </div>     
+                                            <div class="review_score">
+                                                <img src="../img/company/reviewer/review01.png" alt="">
+                                            </div>  
+                                            <span class="board_date">2024-12-28</span>                                    
+                                        </div>
+                                    </div><!--reviewer_infor_box-->
+
+                                    <div class="review_txt">
+                                        <div class="good_txt_box">
+                                            <h5 class="good">장점</h5>
+                                            <p class="good_txt">장점 없습니다.</p>                                             
+                                        </div> 
+                                        <div class="bad_txt_box">
+                                            <h5 class="bad">단점</h5>
+                                            <p class="bad_txt">전임선생님과 파트선생님 대하는 태도가 너무 달라요 간식도 아까워하십니다.</p>
+                                        </div>
+                                    </div>                                    
+                                </div><!--reviewer-->
+
+
+                            </div><!--tab_box-->    
+                        </div><!--company_tab_box-->
+                    </div><!--company_box-->            
+                </section>
+            </main>
+        </div><!--container-->
+    </div><!--wrap-->
+    <script src="../js/job/company.js"></script>
+</body>
+</html>

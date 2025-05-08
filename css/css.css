@@ -1,0 +1,300 @@
+@charset "utf-8";
+
+
+/*slide영역*/
+
+.slide_section{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide_ul{
+    width: 300%;
+    height: 460px;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide_li{
+    width: 33.3%;
+    height: 100%;
+    position: relative;
+}
+.slide_li img{
+    width: 100%;
+    height: 100%;
+}
+.slide_txt{
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    color: var(--gs01);
+}
+.slide_txt h2{
+    margin:var(--margin5) 0;
+}
+
+.dot_ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 25px;
+}
+.dot_li{
+    width: 35px;
+    height: 5px;
+    background: var(--gs01);
+    margin: 0 var(--margin5);
+    cursor: pointer;
+}
+
+.dot_li.on{
+    background: var(--cs08);
+}
+/*main section*/
+
+.main{
+    width: 100%;
+    overflow: hidden;
+}
+
+/*section 공통*/
+.section{
+    width: 100%;
+    /* overflow-y: scroll; */
+}
+
+.section .title{
+    font-size: var(--fontSize18);
+}
+.section .name{
+    color: var(--cs05);
+    margin-right: var(--margin5);
+}
+
+.section .txt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: var(--margin50);
+    margin-bottom: var(--margin20);
+}
+
+.more{
+    font-size: var(--fontSize12);
+    color:var(--gs07);
+}
+
+.more:hover{
+    text-decoration: underline;
+}
+
+.job_box{
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.job_list_ul{
+    width: 550px;
+    display: flex;
+    align-items: center;   
+    flex-wrap: wrap;    
+}
+
+.job_list_li{
+    width: 250px;
+    border:1px solid var(--gs09);
+    border-radius: 10px;
+    margin: var(--margin10) ;
+    padding: var(--padding10) var(--padding15)
+}
+
+.store_infor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.store_name,.community_category{
+    color: var(--gs08);
+    font-size: var(--fontSize13);
+}
+
+.store_infor i{
+    color: var(--gs05);
+    cursor: pointer;
+}
+.store_infor i.on{
+    color: var(--cs04);
+}
+.job_list_li img{
+    width: 20px;
+    cursor: pointer;
+}
+
+.board_title{
+    color: var(--gs07);
+    margin-right:var(--margin3) ;
+}
+
+.board_title a{
+    display: inline-block;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: var(--fontWeight400);
+}
+.maker{
+    font-size: var(--fontSize13);
+    color: var(--gs07);
+    margin-right: var(--margin3);
+}
+.region{
+    font-size: var(--fontSize12);
+    color: var(--gs09);
+}
+
+
+/*두번째 section*/
+
+.community_section{
+    width: 100%;
+}
+.community_box{
+    width: 100%;
+    overflow-x: scroll;
+}
+.community_list_ul{
+    width:550px;
+    display: flex;
+    align-items: center;   
+    flex-wrap: wrap; 
+}
+.community_li{
+    width: 250px;
+    border:1px solid var(--gs09);
+    border-radius: 10px;
+    margin: var(--margin10) ;
+    padding: var(--padding10) var(--padding15)
+}
+.community_category{}
+.community_title{
+    font-size: var(--fontSize13);
+}
+.community_title a,.community_content{
+    display: inline-block;
+    max-width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* font-weight: var(--fontWeight400); */
+}
+
+.community_content{
+    font-size: var(--fontSize15);
+}
+
+.etc{
+    display: flex;
+    align-items: center;
+    font-size: var(--fontSize12);
+    color: var(--gs07);
+}
+.nickname{}
+.reple{
+    margin: 0 var(--margin10);
+}
+.reple_count{}
+.count{}
+.count_count{}
+
+
+/*portfolio section*/
+.portfolio_section{
+    width: 100%;
+}
+
+.portfolio_box{
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.portfolio_ul{
+    width: 550px;
+    display: flex;
+}
+.portfolio_li{
+    width: 30%;
+    margin-right: var(--margin20);
+    position: relative;
+    overflow: hidden;
+}
+.portfolio_li img{
+    width: 100%;
+    height: 240px;
+}
+.portfolio_li a{
+    position: absolute;
+    bottom: -55px;
+    left: 0;
+    background: var(--gs01);
+    opacity: 0;
+    padding: var(--padding10);
+    transition: 0.5s;
+    font-size: var(--fontSize14);
+}
+
+.portfolio_li:hover a{
+    bottom: 0;
+    opacity: 0.8;
+}
+
+.law_section{}
+.law_list_box{
+    width: 100%;
+    overflow-x: scroll;
+}
+.law_list_ul{
+    width: 680px;
+    display: flex;
+}
+.law_list_li{
+    width: 45%;
+    position: relative;
+    margin-right:var(--margin20);    
+}
+.law_list_li:nth-child(2) .law_text_section,.law_list_li:nth-child(2) .law_text_section a{
+    color: var(--gs02);
+}
+
+.lawImg{}
+.law_text_section{
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+}
+.law_text_section h5{
+    font-size: var(--fontSize15);
+}
+.law_text_section p{
+    margin-top:var(--margin10);
+    font-size: var(--fontSize18);
+    font-weight: var(--fontWeight600);
+}
+
+.law_text_section span{
+    display: inline-block;
+    max-width: 285px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: var(--fontSize14);
+}
+
+.law_list_li img{
+    width: 100%;    
+}

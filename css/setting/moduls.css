@@ -1,0 +1,133 @@
+/*font*/
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../../font/Pretendard-Light.subset.woff2'), url('../../font/Pretendard-Light.subset.woff'); font-weight: 300;
+  }
+  @font-face {
+    font-family: 'Pretendard';
+    src: url('../../font/Pretendard-Regular.subset.woff2'), url('../../font/Pretendard-Regular.subset.woff'); font-weight: 400;
+  }
+  @font-face {
+    font-family: 'Pretendard';
+    src: url('../../font/Pretendard-Medium.subset.woff2'), url('../../font/Pretendard-Medium.subset.woff'); font-weight: 500;
+  }
+  @font-face {
+    font-family: 'Pretendard';
+    src: url('../../font/Pretendard-SemiBold.subset.woff2'), url('../../font/Pretendard-SemiBold.subset.woff'); font-weight: 600;
+  }
+  @font-face {
+    font-family: 'Pretendard';
+    src: url('../../font/Pretendard-Bold.subset.woff2'), url('../../font/Pretendard-Bold.subset.woff'); font-weight: 700;
+  }
+
+  :root{
+/*color section*/
+/*gray scale*/
+--gs01:#ffffff;
+--gs02:#fafafa;
+--gs03:#f5f5f5;
+--gs04:#eeeeee;
+--gs05:#dddddd;
+--gs06:#aaaaaa;
+--gs07:#949494;
+--gs08:#6b6b6b;
+--gs09:#343434;
+--gs10:#2d2d2d;
+--gs11:#141414;
+--gs12:#000000;
+/*color scale*/
+--cs01:#ffe5a0;
+--cs02:#ffd180;
+--cs03:#ffb64d;
+--cs04:#ffa500;
+--cs05:#ff8c00;
+--cs06:#ff7f00;
+--cs07:#ff6a00;
+--cs08:#ff6700;
+--cs09:#e0f7ff;
+--cs10:#a3d8ff;
+--cs11:#66c0ff;
+--cs12:#339fff;
+--cs13:#007bff;
+--cs14:#0068cc;
+--cs15:#0051a3;
+--cs16:#003f80;
+--cs17:#ffebeb;
+--cs18:#ffb3b3;
+--cs19:#ff8080;
+--cs20:#ff4d4d;
+--cs21:#ff0000;
+--cs22:#e60000;
+--cs23:#cc0000;
+--cs24:#990000;
+
+/*font-size*/
+
+--fontSize50:50px;
+--fontSize32:32px;
+--fontSize30:30px;
+--fontSize28:28px;
+--fontSize22:22px;
+--fontSize20:20px;
+--fontSize18:18px;
+--fontSize16:16px;
+--fontSize15:15px;
+--fontSize14:14px;
+--fontSize13:13px;
+--fontSize12:12px;
+
+/*fontWeight*/
+--fontWeight300:300;
+--fontWeight400:400;
+--fontWeight500:500;
+--fontWeight600:600;
+--fontWeight700:700;
+--fontWeight900:900;
+
+/*padding*/
+--padding3:3px;
+--padding5:5px;
+--padding10:10px;
+--padding15:15px;
+--padding20:20px;
+--padding25:25px;
+--padding30:30px;
+--padding35:35px;
+--padding40:40px;
+--padding45:45px;
+--padding50:50px;
+--padding55:55px;
+--padding60:60px;
+--padding65:65px;
+--padding70:70px;
+--padding75:75px;
+--padding80:80px;
+--padding85:85px;
+--padding90:90px;
+--padding95:95px;
+--padding100:100px;
+
+/*margin*/
+--margin3:3px;
+--margin5:5px;
+--margin10:10px;
+--margin15:15px;
+--margin20:20px;
+--margin25:25px;
+--margin30:30px;
+--margin35:35px;
+--margin40:40px;
+--margin45:45px;
+--margin50:50px;
+--margin55:55px;
+--margin60:60px;
+--margin65:65px;
+--margin70:70px;
+--margin75:75px;
+--margin80:80px;
+--margin85:85px;
+--margin90:90px;
+--margin95:95px;
+--margin100:100px;
+
+}
