@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+.main{
+    width: 100%;
+    overflow: hidden;
+}
+
+.tab_section{
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.tab_ul{
+    width: 130%;
+    display: flex;
+    align-items: center;
+}
+.tab_li{
+    font-size: var(--fontSize18);
+    margin-right: var(--margin20);
+}
+
+.tab_li .on{
+    color: var(--cs05);   
+    font-weight: var(--fontWeight700);
+}
+.community_btn_section{
+    width: 100%;
+    text-align: right;
+}
+.community_btn{
+     background:var(--cs02);   
+    font-size: var(--fontSize14);
+    display: inline-block;
+    padding: var(--padding10);
+    margin: var(--margin10) 0;
+    border-radius: 5px;
+    color: var(--gs01);
+}
+
+.tab_box{
+    display: none;
+}
+.tab_box.on{
+    display: block;
+}
+.community_box_1{}
+.community_ul{}
+.community_li{    
+    margin-top: var(--margin20) ;
+    padding: var(--padding20) var(--padding10);
+    border-bottom: 1px solid var(--gs05);
+}
+.community_li:nth-child(1)>.community_title{
+    margin: var(--margin10) 0 ;
+}
+.community_top_section{
+    display: flex;;
+    align-items: center;
+    justify-content: space-between;
+}
+.author_infor{
+    display: flex;
+    align-items: center;
+}
+.author_infor span{
+    font-size: var(--fontSize13);
+    margin-right: var(--margin5);
+}
+.profileImg{
+    width: 40px;
+    height: 40px;
+    margin-right: var(--margin5);
+}
+.nick_name{}
+.date_time{}
+.icon_section{}
+.icon_section i{ 
+    font-size: var(--fontSize13);
+}
+.icon_section span{
+    font-size: var(--fontSize13);
+}
+.count_count{}
+.reple_icon{}
+.community_content{
+    margin: var(--margin10) 0;
+}
+
+.community_title{
+    max-width: 280px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: var(--margin3);
+}
+
+.community_detail{
+    font-size: var(--fontSize13);
+    max-width: 280px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: var(--margin3);
+}
+.tag_list{}
+.tag{
+    font-size: var(--fontSize12);
+    background: var(--cs03);
+    border-radius: 10px;
+    padding: var(--padding5);
+    color:var(--gs03);
+}
+
+.paging_ul{
+    width: 80%;
+    margin: var(--margin20) auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.paging_li{
+    font-size: var(--fontSize14);
+    display: flex;
+    
+}
+
+.paging_num{
+    padding: var(--padding5);
+}
+
+.paging_num.on{
+    background: var(--cs05);
+    color: var(--gs01);
+}
